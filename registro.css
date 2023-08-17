@@ -36,3 +36,8 @@ body {
   position: relative;
   top: 220px;
 }
+.form-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

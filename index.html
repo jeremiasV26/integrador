@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquaries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
     <title>MAJOR 2024</title>
     <link rel="icon" href="/img/csgo.jpg" />
   </head>
@@ -15,14 +20,17 @@
           src="/img/600px-PGL_Major_Copenhagen_2024_lightmode.png"
           alt=""
         />
-        <ul class="nav"></ul>
-        <li class="nav_link"><a href="#INICIO">INICIO</a></li>
-        <li class="nav_link"><a href="#COMPETENCIA">COMPETENCIA</a></li>
-        <li class="nav_link"><a href="#MAPAS">MAPAS</a></li>
+        <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="toggle-menu" />
+        <ul class="nav">
+          <li class="nav_link"><a href="#hero">INICIO</a></li>
+          <li class="nav_link"><a href="#about">COMPETENCIA</a></li>
+          <li class="nav_link"><a href="#mapas">MAPAS</a></li>
+        </ul>
       </nav>
     </header>
     <main>
-      <section class="hero">
+      <section class="hero" id="hero">
         <div class="hero-complete">
           <h1>PGL Major Copenhagen 2024</h1>
           <div class="hero-card">
@@ -39,7 +47,7 @@
             ></iframe>
           </div>
           <div class="boton">
-            <a href="#">Vivi la experiencia</a>
+            <a href="login.html">Vivi la experiencia</a>
           </div>
           <div class="sponsor">
             <img src="/img/alienware.png" alt="" />
@@ -48,7 +56,7 @@
             <img src="/img/1xbet-logo-0.png" alt="" />
             <img src="/img/redragon-logo-1.png" alt="" />
           </div>
-          <div class="about">
+          <div class="about" id="about">
             <h2 class="titular">Primer torneo de counter strike 2</h2>
             <div class="about-info">
               <table class="table-info">
@@ -74,7 +82,7 @@
                 </tr>
               </table>
               <div class="ubicacion">
-                <a href="#">Elegi tu ubicacion</a>
+                <a href="register.html">Elegi tu ubicacion</a>
                 <div class="grada">
                   <img src="/img/252.png" alt="" />
                 </div>

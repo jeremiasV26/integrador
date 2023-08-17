@@ -15,6 +15,7 @@ body {
   background-color: var(--fondo);
 }
 .navbar {
+  width: 100%;
   font-family: "Bebas Neue", sans-serif;
   display: flex;
   justify-content: space-between;
@@ -40,10 +41,21 @@ a {
 ul {
   margin: 15px 15px 15px 500px;
 }
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
 .nav_link {
   list-style: none;
   margin-right: 100px;
   font-family: "Bebas Neue", sans-serif;
+}
+.navbar i {
+  font-size: 40px;
+  display: none;
+}
+#toggle-menu {
+  display: none;
 }
 .hero h1 {
   display: flex;
@@ -266,7 +278,6 @@ th {
   width: 300px;
   height: 150px;
 }
-
 .contacto {
   margin: 20px;
   display: flex;
@@ -292,7 +303,6 @@ th {
   width: 50px;
   height: 50px;
 }
-
 .footer {
   display: flex;
   flex-direction: column;

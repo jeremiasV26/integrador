@@ -1,0 +1,109 @@
+@media (max-width: 576px) {
+  :root {
+    --letras: #e48715;
+    --detalles: #f7d59a;
+    --fondo: #d9d9d9;
+    --logo: #243d8f;
+    --puto: #000;
+  }
+  .navbar ul {
+    background-color: var(--fondo);
+    width: 100%;
+    height: calc(100vh - 80px);
+    top: 80px;
+    left: -500px;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+  .navbar i {
+    display: block;
+  }
+  #toggle-menu:checked ~ .nav {
+    display: flex;
+  }
+  .hero h1 {
+    text-align: center;
+  }
+  .hero-card img {
+    width: 520px;
+    height: 250px;
+  }
+  .video {
+    display: none;
+  }
+  .sponsor {
+    width: 100%;
+    height: 500px;
+    flex-wrap: wrap;
+  }
+  .about-info {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .about h2 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ubicacion {
+    display: flex;
+    flex-direction: column;
+  }
+  .ubicacion a {
+    text-align: center;
+  }
+  .map-pool h2 {
+    position: relative;
+    right: 10px;
+    text-align: center;
+  }
+  .map-pool {
+    position: relative;
+    left: 0px;
+  }
+  .card:nth-child(7) {
+    position: relative;
+    left: 0px;
+  }
+  .container {
+    max-width: 400px;
+    flex-direction: column;
+  }
+  .contacto {
+    text-align: center;
+  }
+  .footer {
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  ul {
+    margin: 0;
+  }
+  .hero-card {
+    flex-direction: column;
+  }
+  .sponsor {
+    flex-wrap: wrap;
+  }
+  .about-info {
+    flex-direction: column;
+    gap: 100px;
+  }
+  .map-pool {
+    position: relative;
+    left: 0;
+  }
+  .container {
+    justify-content: center;
+    max-width: 950px;
+  }
+  .card:nth-child(7) {
+    position: relative;
+    left: 0px;
+  }
+}
